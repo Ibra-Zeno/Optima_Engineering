@@ -19,13 +19,13 @@
     @apply flex w-full flex-row flex-wrap items-center justify-evenly gap-x-6 gap-y-8;
   }
   .about-head-card {
-    @apply relative mx-auto mt-s-four flex h-full w-[90%] flex-col items-center justify-start rounded-md px-s-three py-s-two transition-all duration-300 ease-in-out hover:-translate-y-2 hover:shadow-md md:mx-0 md:min-h-[180px] md:w-[30%];
+    @apply relative mx-auto mt-s-four flex h-full w-[90%] flex-col items-center justify-start rounded-md border-2 border-gray-500/10 bg-gray-100 p-4 transition-all duration-300 ease-in-out hover:-translate-y-2 hover:shadow-md md:mx-0 md:min-h-[180px] md:w-[30%] md:px-8 md:py-6;
   }
   .about-head-card-header {
     @apply mb-s-four inline-flex h-full w-full flex-row items-center justify-center md:justify-start;
   }
   .about-head-card-img svg {
-    @apply h-[50px] w-[50px] object-cover;
+    @apply h-[30px] w-[30px] object-cover;
   }
   .about-head-card-title {
     @apply ml-s-four;
@@ -34,7 +34,7 @@
     @apply flex items-start justify-start;
   }
   .about-head-card-inner p {
-    @apply mb-s-four w-full max-w-prose text-center text-f-two font-medium tracking-wide md:text-left md:text-f-three;
+    @apply mb-s-four w-full max-w-prose text-center text-sm font-medium tracking-wide md:text-left;
   }
 }
 
@@ -74,6 +74,20 @@
   background-position: center 0%;
   background-repeat: no-repeat;
 }
+
+#about-banner {
+  background-image: url("../images/low-poly-grid-haikei.svg");
+  background-size: cover;
+  background-position: center 0%;
+  background-blend-mode: multiply;
+  background-repeat: no-repeat;
+}
+
+#about-banner * {
+  position: relative;
+  z-index: 2;
+}
+
 body {
   ::selection {
     background-color: hsl(341, 75%, 48%, 0.5);

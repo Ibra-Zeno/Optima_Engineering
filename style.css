@@ -7,7 +7,7 @@
 
 @layer utilities {
   .index-main-card {
-    @apply flex h-full flex-col items-center justify-evenly rounded-lg border border-sky-300/30 bg-sky-950/95 p-6 transition-all duration-500 hover:shadow-lg hover:shadow-sky-200/20 md:p-8 lg:items-start;
+    @apply flex h-full flex-col items-center justify-evenly rounded-md border border-sky-300/30 bg-cyan-900/95 p-6 transition-all duration-500 hover:shadow-lg hover:shadow-sky-200/20 md:p-8 lg:items-start;
   }
   .seen-on-wrap {
     @apply relative flex min-h-[100px] w-full flex-row items-center justify-around bg-gr-100 bg-opacity-10 py-s-three backdrop-blur-sm;

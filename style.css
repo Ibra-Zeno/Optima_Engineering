@@ -19,7 +19,7 @@
     @apply flex w-full flex-row flex-wrap items-center justify-evenly gap-x-6 gap-y-8;
   }
   .about-head-card {
-    @apply relative mx-auto mt-s-four flex h-full w-[90%] flex-col items-center justify-start rounded-md border-2 border-gray-500/10 bg-gray-100 p-4 transition-all duration-300 ease-in-out hover:-translate-y-2 hover:shadow-md md:mx-0 md:min-h-[180px] md:w-[30%] md:px-8 md:py-6;
+    @apply relative mx-auto mt-s-four flex w-[90%] flex-col items-center justify-start rounded-md border-2 border-gray-500/20 bg-gray-100 p-4 shadow-sm transition-all duration-300 ease-in-out hover:-translate-y-2 hover:shadow-xl md:mx-0 md:min-h-[180px] md:w-[30%] md:px-8 md:py-6;
   }
   .about-head-card-header {
     @apply mb-s-four inline-flex h-full w-full flex-row items-center justify-center md:justify-start;
@@ -80,8 +80,23 @@
   /* background by SVGBackgrounds.com */
   background-size: cover;
   background-position: center 0%;
-  background-blend-mode: multiply;
   background-repeat: no-repeat;
+}
+
+#about-main {
+  background-image: url("../images/Moon.svg");
+  background-position: center bottom;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+@media screen and (max-width: 768px) {
+  #about-main {
+    background-position: center;
+    background-image: url("../images/Stationary-blobs.svg");
+
+    background-repeat: no-repeat;
+  }
 }
 
 #about-banner * {
@@ -91,7 +106,7 @@
 
 body {
   ::selection {
-    background-color: hsl(341, 75%, 48%, 0.5);
+    background-color: hsla(341, 100%, 34%, 0.7);
     color: #fff;
   }
 }

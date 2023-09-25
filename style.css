@@ -76,7 +76,8 @@
 }
 
 #about-banner {
-  background-image: url("../images/low-poly-grid-haikei.svg");
+  background-image: url("../images/rainbow-vortex.svg");
+  /* background by SVGBackgrounds.com */
   background-size: cover;
   background-position: center 0%;
   background-blend-mode: multiply;

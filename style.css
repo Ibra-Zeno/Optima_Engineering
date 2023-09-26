@@ -40,7 +40,7 @@
 
 #hero-index {
   position: relative;
-  background-image: url("../images/header-main.jpg");
+  background-image: url("../images/backgrounds/header-main.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -63,20 +63,20 @@
 }
 
 #courses-main {
-  background-image: url("../images/blobs.svg");
+  background-image: url("../images/backgrounds/blobs.svg");
   background-size: cover;
   background-position: center 0%;
   background-repeat: no-repeat;
 }
 #main-wrap-courses {
-  background-image: url("../images/better-bg.svg");
+  background-image: url("../images/backgrounds/better-bg.svg");
   background-size: cover;
   background-position: center 0%;
   background-repeat: no-repeat;
 }
 
 #about-banner {
-  background-image: url("../images/rainbow-vortex.svg");
+  background-image: url("../images/backgrounds/rainbow-vortex.svg");
   /* background by SVGBackgrounds.com */
   background-size: cover;
   background-position: center 0%;
@@ -84,7 +84,7 @@
 }
 
 #about-main {
-  background-image: url("../images/Moon.svg");
+  background-image: url("../images/backgrounds/Moon.svg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -93,7 +93,7 @@
 @media screen and (max-width: 768px) {
   #about-main {
     background-position: center;
-    background-image: url("../images/Stationary-blobs.svg");
+    background-image: url("../images/backgrounds/Stationary-blobs.svg");
     background-size: cover;
     background-repeat: no-repeat;
   }

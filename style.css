@@ -85,7 +85,7 @@
 
 #about-main {
   background-image: url("../images/Moon.svg");
-  background-position: center bottom;
+  background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -94,7 +94,7 @@
   #about-main {
     background-position: center;
     background-image: url("../images/Stationary-blobs.svg");
-
+    background-size: cover;
     background-repeat: no-repeat;
   }
 }

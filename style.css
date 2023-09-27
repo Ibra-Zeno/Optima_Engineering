@@ -75,6 +75,13 @@
   background-repeat: no-repeat;
 }
 
+#project-planning-main-wrap {
+  background-image: url("../images/backgrounds/Moon1.svg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
 #about-banner {
   background-image: url("../images/backgrounds/rainbow-vortex.svg");
   /* background by SVGBackgrounds.com */

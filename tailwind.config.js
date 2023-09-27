@@ -135,6 +135,8 @@ module.exports = {
           100: "hsl(141, 67%, 80%)",
           50: "hsl(142, 81%, 94%)",
         },
+        primHotLight: "#982354",
+        quad: "#e3e0e7",
       },
     },
   },

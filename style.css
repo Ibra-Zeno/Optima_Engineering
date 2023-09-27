@@ -65,7 +65,7 @@
 #courses-main {
   background-image: url("../images/backgrounds/blobs.svg");
   background-size: cover;
-  background-position: center 0%;
+  background-position: center;
   background-repeat: no-repeat;
 }
 #main-wrap-courses {

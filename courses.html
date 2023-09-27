@@ -19,7 +19,7 @@
       class="relative z-50 flex w-full flex-wrap bg-opacity-50 bg-gradient-to-br from-slate-300 via-stone-200 to-gray-300 py-4 text-sm sm:flex-nowrap sm:justify-start"
     >
       <nav
-        class="mx-auto w-full max-w-[85rem] px-4 sm:flex sm:items-center sm:justify-between"
+        class="mx-auto w-full max-w-7xl px-4 sm:flex sm:items-center sm:justify-between md:px-8"
         aria-label="Global"
       >
         <div class="flex items-center justify-between">
@@ -198,7 +198,7 @@
               </button>
 
               <div
-                class="hs-dropdown-menu top-full z-10 hidden rounded-md bg-gray-300/95 p-2 opacity-0 transition-[opacity,margin] duration-[0.1ms] before:absolute before:-top-5 before:left-0 before:h-5 before:w-full hs-dropdown-open:opacity-100 sm:w-48 sm:border sm:shadow-md sm:duration-[150ms]"
+                class="hs-dropdown-menu top-full z-10 hidden rounded-md bg-gray-200 p-2 opacity-0 transition-[opacity,margin] duration-[0.1ms] before:absolute before:-top-5 before:left-0 before:h-5 before:w-full hs-dropdown-open:opacity-100 sm:w-48 sm:border sm:shadow-md sm:duration-[150ms]"
               >
                 <a
                   class="flex items-center gap-x-3.5 rounded-md px-3 py-2 text-sm text-gray-500 transition hover:bg-slate-200 hover:text-gray-800 focus:ring-2 focus:ring-blue-500"
@@ -231,17 +231,20 @@
     </header>
     <main>
       <!-- Top Banner -->
-      <section id="courses-banner" class="relative h-fit w-full bg-sky-950">
+      <section
+        id="courses-banner"
+        class="relative h-fit w-full border-b-4 border-b-sky-100/60 bg-sky-950"
+      >
         <div
           id="courses-banner-wrap"
-          class="mx-auto flex max-w-7xl flex-col gap-x-s-five px-8 py-8 text-gr-50 sm:grid sm:grid-cols-2 sm:items-center sm:justify-between"
+          class="mx-auto flex max-w-7xl flex-col gap-x-s-five px-8 py-12 text-gr-50 sm:grid sm:grid-cols-2 sm:items-center sm:justify-between"
         >
           <div
             id="course-banner-right"
             class="flex flex-col justify-around text-center sm:text-left"
           >
             <h2
-              class="text-f-seven font-semibold leading-tight md:text-f-eight lg:text-f-nine"
+              class="mb-2 text-2xl font-semibold leading-tight md:text-4xl lg:text-5xl"
             >
               Explore Our <br /><span class="text-[#FEAFD6]"
                 >Planning Courses</span
@@ -256,7 +259,7 @@
           <div id="course-banner-left" class="flex flex-col justify-center">
             <div class="mx-auto my-s-two h-px w-4/5 bg-gr-800 sm:hidden"></div>
             <p
-              class="mx-auto mt-s-two max-w-prose text-center text-base text-gr-200 drop-shadow-lg sm:mt-0 sm:text-left md:text-lg"
+              class="xl:text- mx-auto mt-s-two max-w-prose text-center text-sm text-gr-200 drop-shadow-lg sm:mt-0 sm:text-left md:text-base lg:text-lg"
             >
               Join us on a learning journey that combines cutting-edge tools,
               practical insights, and expert guidance to unlock your full
@@ -323,6 +326,8 @@
                             Efficient Project Planning
                           </p>
                         </div>
+                        <div class="h-[1px] w-8 bg-gray-500/20"></div>
+
                         <div
                           class="max-w-prose pt-3 text-xs text-gray-500 mix-blend-multiply sm:text-sm lg:text-base"
                         >
@@ -339,6 +344,7 @@
                             Career Advancement
                           </p>
                         </div>
+                        <div class="h-[1px] w-8 bg-gray-500/20"></div>
                         <div
                           class="max-w-prose pt-3 text-xs text-gray-500 mix-blend-multiply sm:text-sm lg:text-base"
                         >
@@ -355,6 +361,7 @@
                             Enhanced Professional Skills
                           </p>
                         </div>
+                        <div class="h-[1px] w-8 bg-gray-500/20"></div>
                         <div
                           class="max-w-prose pt-3 text-xs text-gray-500 mix-blend-multiply sm:text-sm lg:text-base"
                         >
@@ -371,6 +378,7 @@
                             Cost-Effective Training
                           </p>
                         </div>
+                        <div class="h-[1px] w-8 bg-gray-500/20"></div>
                         <div
                           class="max-w-prose pt-3 text-xs text-gray-500 mix-blend-multiply sm:text-sm lg:text-base"
                         >
@@ -387,6 +395,7 @@
                             Stay Updated with Industry Trends
                           </p>
                         </div>
+                        <div class="h-[1px] w-8 bg-gray-500/20"></div>
                         <div
                           class="max-w-prose pt-3 text-xs text-gray-500 mix-blend-multiply sm:text-sm lg:text-base"
                         >
@@ -402,6 +411,7 @@
                             Decision Making
                           </p>
                         </div>
+                        <div class="h-[1px] w-8 bg-gray-500/20"></div>
                         <div
                           class="max-w-prose pt-3 text-xs text-gray-500 mix-blend-multiply sm:text-sm lg:text-base"
                         >
@@ -479,16 +489,14 @@
           <div id="courses-body-left" class="col-span-2 my-auto">
             <div
               id="course-right-container"
-              class="flex aspect-square h-full w-full flex-col justify-center bg-sky-950 px-2 py-s-six text-center text-white md:px-3"
+              class="flex h-full w-full flex-col justify-center bg-sky-950 px-2 py-12 text-center text-white md:px-3 lg:aspect-square"
             >
               <h4
-                class="mb-s-two text-f-five font-semibold text-[#FEAFD6] md:text-f-six lg:text-f-seven"
+                class="mb-s-two text-xl font-semibold text-[#FEAFD6] sm:text-2xl lg:text-2xl"
               >
                 Our Courses
               </h4>
-              <ul
-                class="space-y-5 py-s-five text-sm font-light md:text-base lg:text-lg"
-              >
+              <ul class="space-y-5 py-s-five text-sm font-light sm:text-base">
                 <li>
                   <span class="mix-blend-hard-light">👉</span> Expert-led
                   instruction
@@ -506,7 +514,9 @@
                   available
                 </li>
               </ul>
-              <p class="max-w-prose px-3 text-xs text-white/90 md:text-sm">
+              <p
+                class="mx-auto max-w-prose px-3 text-xs text-white/90 sm:text-sm"
+              >
                 Discover your planning superpowers with our premium online
                 courses! Gain insider knowledge, direct skills, and personalised
                 learning in construction planning and top software.
@@ -528,62 +538,67 @@
         <section id="pricing">
           <section class="">
             <div
-              class="relative mx-auto w-full max-w-7xl items-center px-6 py-s-seven md:px-10 lg:px-12"
+              class="relative mx-auto w-full items-center px-6 py-s-seven md:max-w-7xl md:px-10 lg:px-12"
             >
               <div
-                class="space-y-12 divide-x divide-slate-500/10 rounded-md border border-gray-500/5 bg-gray-200/40 shadow-md lg:grid lg:grid-cols-3 lg:gap-x-6 lg:space-y-0 lg:p-20"
+                class="mx-auto max-w-sm space-y-12 divide-y divide-slate-500/10 rounded-md border border-gray-500/5 bg-gray-200/40 shadow-md md:grid md:w-full md:max-w-none md:grid-cols-3 md:gap-x-6 md:space-y-0 md:divide-x md:divide-y-0 md:px-8 md:py-12 lg:px-12 lg:py-20"
               >
-                <div class="relative flex flex-col p-4">
-                  <div class="flex-1">
-                    <div class="px-4 py-5">
+                <div class="relative flex flex-col p-4 text-center">
+                  <div class="flex h-full flex-col justify-between sm:px-0">
+                    <div class="px-4 pb-3 pt-5">
                       <div class="-ml-2 -mt-2 flex flex-col items-baseline">
-                        <h3
-                          class="mt-2 text-f-six font-medium text-gr-800 sm:font-normal"
-                        >
+                        <h3 class="w-full text-2xl font-medium text-gray-700">
                           Project Management
                         </h3>
-                        <p class="mt-1 text-sm text-primary">Stay in control</p>
+                        <p class="mt-1 w-full text-sm text-primary/80">
+                          Stay in control
+                        </p>
+                        <div
+                          class="mx-auto mt-1 h-[1px] w-8 bg-gray-500/20 md:w-16"
+                        ></div>
                       </div>
                     </div>
 
                     <ul
                       role="list"
-                      class="order-last mt-10 flex flex-col gap-y-3 text-sm text-black"
+                      class="mt-4 flex flex-col gap-y-3 px-8 pb-5 text-left text-xs text-gray-600 sm:px-20 sm:text-center md:mt-8 md:px-0 md:text-sm lg:gap-y-5 lg:px-6 lg:pb-12"
                     >
-                      <li class="flex items-center text-sec-400">
-                        &#10004;
-                        <span class="ml-4 text-gr-800"
-                          >Use PowerProject for seamless project
+                      <li class="flex w-full items-center">
+                        <span class="mr-3 text-sec-400">&#10004;</span>
+                        <span class="mx-auto text-center md:mx-0 md:text-left"
+                          >Utilise leading software for project
                           coordination</span
                         >
                       </li>
-                      <li class="flex items-center text-sec-400">
-                        &#10004;
-                        <span class="ml-4 text-gr-800">
-                          Effectively lead teams
+                      <li class="flex w-full items-center">
+                        <span class="mr-3 text-sec-400">&#10004;</span>
+                        <span class="mx-auto text-center md:mx-0 md:text-left"
+                          >Effectively lead and inspire project teams
                         </span>
                       </li>
-                      <li class="flex items-center text-sec-400">
-                        &#10004;
-                        <span class="ml-4 text-gr-800">
-                          Drive project success
+                      <li class="flex w-full items-center">
+                        <span class="mr-3 text-sec-400">&#10004;</span>
+                        <span class="mx-auto text-center md:mx-0 md:text-left"
+                          >Strategically drive project success
                         </span>
                       </li>
-                      <li class="flex items-center text-sec-400">
-                        &#10004;
-                        <span class="ml-4 text-gr-800">
-                          Deliver projects on time and within budget
+                      <li class="flex w-full items-center">
+                        <span class="mr-3 text-sec-400">&#10004;</span>
+                        <span class="mx-auto text-center md:mx-0 md:text-left"
+                          >Deliver projects on time and within budget
                         </span>
                       </li>
-                      <li class="flex items-center text-sec-400">
-                        &#10004;
-                        <span class="ml-4 text-gr-800"> Mitigate risks </span>
+                      <li class="flex w-full items-center">
+                        <span class="mr-3 text-sec-400">&#10004;</span>
+                        <span class="mx-auto text-center md:mx-0 md:text-left"
+                          >Proactively identify and mitigate project risks
+                        </span>
                       </li>
                     </ul>
                     <div class="flex">
                       <a
-                        href="#"
-                        class="mx-auto mt-8 inline-flex w-fit items-center justify-center rounded-md border-2 border-sec-200/30 bg-[#ead3c1]/90 px-16 py-2.5 text-center text-sm font-semibold tracking-wide text-gray-700 duration-200 hover:bg-transparent hover:text-black"
+                        href="./project-management.html"
+                        class="mx-auto mt-4 inline-flex w-fit items-center justify-center rounded-md border-2 border-orange-200/75 bg-[#ead3c1]/90 px-16 py-2.5 text-center text-xs font-semibold tracking-wide text-gray-700 duration-200 hover:border-sky-300/80 hover:bg-sky-950/80 hover:text-gray-50 hover:shadow-xl focus:border-sky-300/80 focus:bg-sky-950/80 focus:text-gray-50 focus:shadow-xl md:text-sm"
                         aria-describedby="tier-hobby"
                       >
                         View Course
@@ -591,119 +606,131 @@
                     </div>
                   </div>
                 </div>
-                <div class="relative flex flex-col p-4">
-                  <div class="flex-1">
-                    <div class="border-b px-4 py-5">
+                <div class="relative flex flex-col p-4 text-center">
+                  <div class="flex h-full flex-col justify-between sm:px-0">
+                    <div class="px-4 pb-3 pt-5">
                       <div class="-ml-2 -mt-2 flex flex-col items-baseline">
-                        <h3
-                          class="mt-2 text-f-six font-medium text-gr-800 sm:font-normal"
-                        >
+                        <h3 class="w-full text-2xl font-medium text-gray-700">
                           Project Planning
                         </h3>
-                        <p class="mt-1 text-sm text-primary">
+                        <p class="mt-1 w-full text-sm text-primary/80">
                           Deliver exceptional projects
                         </p>
+                        <div
+                          class="mx-auto mt-1 h-[1px] w-8 bg-gray-500/20 md:w-16"
+                        ></div>
                       </div>
                     </div>
-                    <div class="flex">
-                      <a
-                        href="#"
-                        class="mt-8 inline-flex w-full items-center justify-center rounded-full border-2 border-prim-300 bg-prim-400 px-6 py-2.5 text-center text-sm text-white duration-200 hover:bg-transparent hover:text-black"
-                        aria-describedby="tier-company"
-                      >
-                        View Course
-                      </a>
-                    </div>
+
                     <ul
                       role="list"
-                      class="order-last mt-10 flex flex-col gap-y-3 text-sm text-black"
+                      class="mt-4 flex flex-col gap-y-3 px-8 pb-5 text-left text-xs text-gray-600 sm:px-20 sm:text-center md:mt-8 md:px-0 md:text-sm lg:gap-y-5 lg:px-6 lg:pb-12"
                     >
-                      <li class="flex items-center text-sec-400">
-                        &#10004;
-                        <span class="ml-4 text-gr-800">
-                          Master Primavera for precise project scheduling
+                      <li class="flex w-full items-center">
+                        <span class="mr-3 text-sec-400">&#10004;</span>
+                        <span class="mx-auto text-center md:mx-0 md:text-left"
+                          >Implement risk management strategies for smoother
+                          project execution</span
+                        >
+                      </li>
+                      <li class="flex w-full items-center">
+                        <span class="mr-3 text-sec-400">&#10004;</span>
+                        <span class="mx-auto text-center md:mx-0 md:text-left"
+                          >Master leading software for precise project
+                          scheduling
                         </span>
                       </li>
-                      <li class="flex items-center text-sec-400">
-                        &#10004;
-                        <span class="ml-4 text-gr-800">
-                          Optimise project timelines
+                      <li class="flex w-full items-center">
+                        <span class="mr-3 text-sec-400">&#10004;</span>
+                        <span class="mx-auto text-center md:mx-0 md:text-left"
+                          >Optimise project timelines
                         </span>
                       </li>
-                      <li class="flex items-center text-sec-400">
-                        &#10004;
-                        <span class="ml-4 text-gr-800">
-                          Streamline resource allocation
+                      <li class="flex w-full items-center">
+                        <span class="mr-3 text-sec-400">&#10004;</span>
+                        <span class="mx-auto text-center md:mx-0 md:text-left"
+                          >Streamline resource allocation
                         </span>
                       </li>
-                      <li class="flex items-center text-sec-400">
-                        &#10004;
-                        <span class="ml-4 text-gr-800">
-                          Enhance collaboration with stakeholders
+                      <li class="flex w-full items-center">
+                        <span class="mr-3 text-sec-400">&#10004;</span>
+                        <span class="mx-auto text-center md:mx-0 md:text-left"
+                          >Enhance collaboration with stakeholders
                         </span>
                       </li>
                     </ul>
-                  </div>
-                </div>
-                <div class="relative flex flex-col p-4">
-                  <div class="flex-1">
-                    <div class="border-b px-4 py-5">
-                      <div class="-ml-2 -mt-2 flex flex-col items-baseline">
-                        <h3
-                          class="mt-2 text-f-six font-medium text-gr-800 sm:font-normal"
-                        >
-                          Construction Planning
-                        </h3>
-                        <p class="mt-1 text-sm text-primary">
-                          Transform plans into reality
-                        </p>
-                      </div>
-                    </div>
                     <div class="flex">
                       <a
-                        href="#"
-                        class="mt-8 inline-flex w-full items-center justify-center rounded-full border-2 border-prim-300 bg-prim-400 px-6 py-2.5 text-center text-sm text-white duration-200 hover:bg-transparent hover:text-black"
+                        href="./project-planning.html"
+                        class="mx-auto mt-4 inline-flex w-fit items-center justify-center rounded-md border-2 border-orange-200/75 bg-[#ead3c1]/90 px-16 py-2.5 text-center text-xs font-semibold tracking-wide text-gray-700 duration-200 hover:border-sky-300/80 hover:bg-sky-950/80 hover:text-gray-50 hover:shadow-xl focus:border-sky-300/80 focus:bg-sky-950/80 focus:text-gray-50 focus:shadow-xl md:text-sm"
                         aria-describedby="tier-hobby"
                       >
                         View Course
                       </a>
                     </div>
+                  </div>
+                </div>
+                <div class="relative flex flex-col p-4 text-center">
+                  <div class="flex h-full flex-col justify-between sm:px-0">
+                    <div class="px-4 pb-3 pt-5">
+                      <div class="-ml-2 -mt-2 flex flex-col items-baseline">
+                        <h3 class="w-full text-2xl font-medium text-gray-700">
+                          Construction Planning
+                        </h3>
+                        <p class="mt-1 w-full text-sm text-primary/80">
+                          Transform plans into reality
+                        </p>
+                        <div
+                          class="mx-auto mt-1 h-[1px] w-8 bg-gray-500/20 md:w-16"
+                        ></div>
+                      </div>
+                    </div>
+
                     <ul
                       role="list"
-                      class="order-last mt-10 flex flex-col gap-y-3 text-sm text-black"
+                      class="mt-4 flex flex-col gap-y-3 px-8 pb-5 text-left text-xs text-gray-600 sm:px-20 sm:text-center md:mt-8 md:px-0 md:text-sm lg:gap-y-5 lg:px-6 lg:pb-12"
                     >
-                      <li class="flex items-center text-sec-400">
-                        &#10004;
-                        <span class="ml-4 text-gr-800">
-                          Acquire in-depth knowledge of construction planning
+                      <li class="flex w-full items-center">
+                        <span class="mr-3 text-sec-400">&#10004;</span>
+                        <span class="mx-auto text-center md:mx-0 md:text-left"
+                          >Acquire in-depth knowledge of construction planning
                         </span>
                       </li>
-                      <li class="flex items-center text-sec-400">
-                        &#10004;
-                        <span class="ml-4 text-gr-800">
-                          Optimise construction sequences for efficient
+                      <li class="flex w-full items-center">
+                        <span class="mr-3 text-sec-400">&#10004;</span>
+                        <span class="mx-auto text-center md:mx-0 md:text-left"
+                          >Optimise construction sequences for efficient
                           execution
                         </span>
                       </li>
-                      <li class="flex items-center text-sec-400">
-                        &#10004;
-                        <span class="ml-4 text-gr-800">
-                          Improve cost control
+                      <li class="flex w-full items-center">
+                        <span class="mr-3 text-sec-400">&#10004;</span>
+                        <span class="mx-auto text-center md:mx-0 md:text-left"
+                          >Improve cost control
                         </span>
                       </li>
-                      <li class="flex items-center text-sec-400">
-                        &#10004;
-                        <span class="ml-4 text-gr-800">
-                          Maximise profitability
+                      <li class="flex w-full items-center">
+                        <span class="mr-3 text-sec-400">&#10004;</span>
+                        <span class="mx-auto text-center md:mx-0 md:text-left"
+                          >Maximise profitability
                         </span>
                       </li>
-                      <li class="flex items-center text-sec-400">
-                        &#10004;
-                        <span class="ml-4 text-gr-800">
-                          Enhance communication with contractors and suppliers
+                      <li class="flex w-full items-center">
+                        <span class="mr-3 text-sec-400">&#10004;</span>
+                        <span class="mx-auto text-center md:mx-0 md:text-left"
+                          >Enhance communication with contractors and suppliers
                         </span>
                       </li>
                     </ul>
+                    <div class="flex">
+                      <a
+                        href="./construction-planning.html"
+                        class="mx-auto mt-4 inline-flex w-fit items-center justify-center rounded-md border-2 border-orange-200/75 bg-[#ead3c1]/90 px-16 py-2.5 text-center text-xs font-semibold tracking-wide text-gray-700 duration-200 hover:border-sky-300/80 hover:bg-sky-950/80 hover:text-gray-50 hover:shadow-xl focus:border-sky-300/80 focus:bg-sky-950/80 focus:text-gray-50 focus:shadow-xl md:text-sm"
+                        aria-describedby="tier-hobby"
+                      >
+                        View Course
+                      </a>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -826,7 +853,7 @@
                 <ul role="list" class="mt-4 space-y-4">
                   <li class="flex overflow-visible">
                     <a
-                      class="group mx-s-five inline-flex items-center justify-center rounded-md border-2 border-gray-300/25 bg-prim-hot/60 px-4 py-2 text-center text-xs tracking-wide text-white shadow-lg transition-shadow hover:bg-prim-hot/75 hover:shadow-2xl focus:outline-1 focus:outline-prim-200 sm:mx-0 sm:text-sm sm:font-medium sm:tracking-normal"
+                      class="bg-primHotLight group mx-s-five inline-flex items-center justify-center rounded-md border-2 border-gray-300/25 px-4 py-2 text-center text-xs tracking-wide text-white shadow-lg transition-shadow hover:bg-prim-hot/75 hover:shadow-2xl focus:outline-1 focus:outline-prim-200 sm:mx-0 sm:text-sm sm:font-medium sm:tracking-normal"
                       href="#"
                     >
                       <div

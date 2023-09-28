@@ -201,19 +201,19 @@
                 class="hs-dropdown-menu top-full z-10 hidden rounded-md bg-gray-200 p-2 opacity-0 transition-[opacity,margin] duration-[0.1ms] before:absolute before:-top-5 before:left-0 before:h-5 before:w-full hs-dropdown-open:opacity-100 sm:w-48 sm:border sm:shadow-md sm:duration-[150ms]"
               >
                 <a
-                  class="flex items-center gap-x-3.5 rounded-md px-3 py-2 text-sm text-gray-500 transition hover:bg-slate-200 hover:text-gray-800 focus:ring-2 focus:ring-blue-500"
+                  class="flex items-center gap-x-3.5 rounded-md px-3 py-2 text-sm text-gray-500 transition hover:bg-slate-200 hover:text-gray-800 focus:bg-slate-200 focus:text-gray-800"
                   href="./project-management.html"
                 >
                   Project Management
                 </a>
                 <a
-                  class="flex items-center gap-x-3.5 rounded-md px-3 py-2 text-sm text-gray-500 transition hover:bg-slate-200 hover:text-gray-800 focus:ring-2 focus:ring-blue-500"
+                  class="flex items-center gap-x-3.5 rounded-md px-3 py-2 text-sm text-gray-500 transition hover:bg-slate-200 hover:text-gray-800 focus:bg-slate-200 focus:text-gray-800"
                   href="./project-planning.html"
                 >
                   Project Planning
                 </a>
                 <a
-                  class="flex items-center gap-x-3.5 rounded-md px-3 py-2 text-sm text-gray-500 transition hover:bg-slate-200 hover:text-gray-800 focus:ring-2 focus:ring-blue-500"
+                  class="flex items-center gap-x-3.5 rounded-md px-3 py-2 text-sm text-gray-500 transition hover:bg-slate-200 hover:text-gray-800 focus:bg-slate-200 focus:text-gray-800"
                   href="./construction-planning.html"
                 >
                   Construction Planning
@@ -233,7 +233,7 @@
       <!-- Banner -->
       <div
         id="banner-project-management"
-        class="relative flex h-auto min-h-[200px] w-full flex-col items-center justify-center bg-gradient-to-br from-cyan-900 via-sky-950 to-sky-900 px-3 lg:px-8"
+        class="relative flex w-full flex-col items-center justify-center border-b-4 border-b-sky-100/60 bg-gradient-to-br from-cyan-900 via-sky-950 to-sky-900 px-3 py-8 md:py-12 lg:px-8"
       >
         <h3
           class="mx-auto w-full max-w-7xl text-center text-2xl font-semibold tracking-wide text-quad md:text-4xl lg:text-5xl"
@@ -241,7 +241,7 @@
           Project Management
         </h3>
         <p
-          class="mt-6 text-center text-xs tracking-wider text-gray-300 sm:text-sm"
+          class="mt-3 text-center text-xs tracking-wider text-gray-300 sm:text-sm md:mt-6"
         >
           The Path to Project Planning Proficiency
         </p>
@@ -251,10 +251,11 @@
         <div id="main-content-courses" class="relative mx-auto max-w-7xl">
           <div
             id="main-content-information-courses"
-            class="mx-auto max-w-[80ch] px-6 text-gray-700 lg:px-8"
+            class="mx-auto max-w-[80ch] px-6 pt-6 text-gray-700 lg:px-8"
           >
+            <!-- Main Text -->
             <h4
-              class="pt-s-five text-left text-f-four font-semibold leading-tight text-primary md:text-f-five lg:pt-s-six lg:text-f-six"
+              class="text-left text-f-four font-semibold leading-tight text-primary md:text-f-five lg:pt-s-six lg:text-f-six"
             >
               Excelling in Project Management
             </h4>
@@ -296,14 +297,14 @@
             </p>
             <!-- Bullet points -->
             <ul
-              class="mb-10 flex flex-col space-y-s-five border-l-4 px-4 pl-8 text-left text-sm tracking-wide md:mb-12 md:ml-6 lg:space-y-9 lg:text-base"
+              class="mb-10 flex flex-col space-y-s-five border-l-4 pl-8 pr-10 text-justify text-sm tracking-wide md:mb-12 md:pr-20 lg:space-y-9 lg:text-base"
             >
               <li class="text-xs sm:text-sm">
                 <span
                   class="text-base font-semibold text-gray-900/75 sm:text-lg lg:text-xl"
                   >Level 1 - Beginners Project Management:</span
                 >
-                <div class="h-[2px] w-12 rounded-2xl bg-gray-300/40"></div>
+                <div class="h-[2px] w-[8ch] rounded-2xl bg-quad/40"></div>
                 <span
                   class="inline-flex py-2 font-optima text-xs font-light italic text-gray-500/70 md:text-sm"
                   >The beginner level course is ideal for those who are new to
@@ -322,7 +323,7 @@
                   class="text-base font-semibold text-gray-900/75 sm:text-lg lg:text-xl"
                   >Level 2 - Intermediate Project Management:</span
                 >
-                <div class="h-[2px] w-12 rounded-2xl bg-gray-300/40"></div>
+                <div class="h-[2px] w-[8ch] rounded-2xl bg-quad/40"></div>
                 <span
                   class="inline-flex py-2 font-optima text-xs font-light italic text-gray-500/70 md:text-sm"
                   >The intermediate level course is designed for project
@@ -341,7 +342,7 @@
                   class="text-base font-semibold text-gray-900/75 sm:text-lg lg:text-xl"
                   >Level 3 - Advanced Project Management:</span
                 >
-                <div class="h-[2px] w-12 rounded-2xl bg-gray-300/40"></div>
+                <div class="h-[2px] w-[8ch] rounded-2xl bg-quad/40"></div>
                 <span
                   class="inline-flex py-2 font-optima text-xs font-light italic text-gray-500/70 md:text-sm"
                   >The advanced level course caters to seasoned project managers
@@ -360,12 +361,9 @@
           <!-- Main CTA -->
         </div>
         <section
-          class="mt-20 w-full border-y-8 border-y-[#c5aeb2]/70 bg-orange-200/40 px-8 py-6 shadow-lg sm:py-8 lg:py-12"
+          class="mt-20 w-full bg-transparent px-4 py-6 shadow-lg sm:py-8 md:px-8 lg:py-12"
         >
-          <div
-            class="mx-auto max-w-7xl rounded-md border-2 border-gray-200/40 bg-gray-50 px-4 py-6 shadow-md md:px-8"
-          >
-            <!-- text - start -->
+          <div class="mx-auto max-w-7xl px-4 py-6 md:px-8">
             <div class="mb-6 md:mb-8">
               <h2
                 class="mb-4 text-center text-lg font-bold text-gray-700/75 lg:text-2xl"
@@ -380,6 +378,7 @@
                 planning and management excellence.
               </p>
             </div>
+            <!-- CTA Image -->
             <div class="mb-20 mt-10">
               <div class="flex flex-col justify-center md:grid md:grid-cols-2">
                 <div class="relative flex items-center justify-center">
@@ -390,30 +389,32 @@
                   />
                 </div>
                 <div>
+                  <!-- Right side CTA -->
                   <div
-                    class="mx-auto mt-s-six flex h-full max-w-2xl flex-col justify-center text-center sm:mt-0"
+                    class="mx-auto mt-s-six flex h-full max-w-2xl flex-col justify-center rounded-md border-4 border-[#7c9aae]/10 bg-[#f8eef7] px-2 py-6 text-center shadow-lg sm:mt-0 md:p-12"
                   >
                     <!-- Title -->
-                    <div class="my-5 max-w-2xl">
+                    <div class="mb-4 mt-0 max-w-2xl">
                       <h1
-                        class="block text-xl font-semibold text-gray-800/95 drop-shadow-md md:text-3xl lg:text-4xl"
+                        class="block text-lg font-semibold text-gray-700 drop-shadow-md md:text-2xl lg:text-3xl"
                       >
                         Supercharge Your Project Management Skills
                       </h1>
                     </div>
-                    <!-- End Title -->
-                    <div class="max-w-3xl">
-                      <p class="text-xs text-gr-600 drop-shadow-lg md:text-sm">
+                    <div class="">
+                      <p
+                        class="mx-auto max-w-sm text-xs text-gray-600/90 drop-shadow-lg md:text-sm"
+                      >
                         Harness the Potential of Cutting-Edge Software for
                         Effective Planning, Execution, and Team Leadership
                       </p>
                     </div>
                     <div
-                      class="mx-auto mb-12 mt-3 h-[2px] w-16 rounded-2xl bg-accent/80"
+                      class="mx-auto mb-12 mt-2 h-[2px] w-16 rounded-2xl bg-accent/80"
                     ></div>
                     <!--CTA Buttons -->
                     <div
-                      class="grid w-full gap-4 sm:inline-flex sm:justify-center"
+                      class="grid w-full justify-center gap-4 sm:inline-flex"
                     >
                       <a
                         class="group mx-s-five inline-flex items-center justify-center gap-x-3 rounded-md border-2 border-prim-100/30 bg-primHotLight px-8 py-3 text-center text-xs tracking-wide text-white shadow-lg transition hover:bg-sec-300/90 focus:bg-sec-300/90 focus:text-white focus:ring-2 focus:ring-prim-200/50 sm:mx-0 sm:text-sm sm:font-medium sm:tracking-normal"
@@ -458,7 +459,7 @@
               <!-- Features Panel -->
               <div class="flex flex-col items-center">
                 <div
-                  class="mb-6 flex h-12 w-12 items-center justify-center rounded-lg bg-prim-400 bg-opacity-90 text-white shadow-lg md:h-14 md:w-14 md:rounded-xl"
+                  class="mb-6 flex h-12 w-12 items-center justify-center rounded-lg bg-sky-950/80 bg-opacity-90 text-white shadow-lg md:h-14 md:w-14 md:rounded-xl"
                 >
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -488,7 +489,7 @@
               <!-- feature - start -->
               <div class="flex flex-col items-center">
                 <div
-                  class="mb-6 flex h-12 w-12 items-center justify-center rounded-lg bg-prim-400 bg-opacity-90 text-white shadow-lg md:h-14 md:w-14 md:rounded-xl"
+                  class="mb-6 flex h-12 w-12 items-center justify-center rounded-lg bg-sky-950/80 bg-opacity-90 text-white shadow-lg md:h-14 md:w-14 md:rounded-xl"
                 >
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -520,7 +521,7 @@
                 class="z-30 flex flex-col items-center justify-center sm:col-span-2 sm:mx-auto sm:w-1/2 lg:col-span-1 lg:mx-0 lg:w-full"
               >
                 <div
-                  class="mb-6 flex h-12 w-12 items-center justify-center rounded-lg bg-prim-400 bg-opacity-90 text-white shadow-lg md:h-14 md:w-14 md:rounded-xl"
+                  class="mb-6 flex h-12 w-12 items-center justify-center rounded-lg bg-sky-950/80 bg-opacity-90 text-white shadow-lg md:h-14 md:w-14 md:rounded-xl"
                 >
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -598,7 +599,10 @@
         </div>
       </div>
     </section>
-    <footer class="bg-white" aria-labelledby="footer-heading">
+    <footer
+      class="bg-gradient-to-br from-slate-300 via-stone-300 to-gray-300"
+      aria-labelledby="footer-heading"
+    >
       <h2 id="footer-heading" class="sr-only">Footer</h2>
       <div class="mx-auto max-w-7xl px-5 py-12 md:px-12 lg:px-20 lg:py-16">
         <div
@@ -607,11 +611,11 @@
           <div class="flex flex-col justify-center space-y-8">
             <a
               href="./index.html"
-              class="tracking-relaxed text-center text-3xl font-bold tracking-tight text-primary transition duration-500 ease-in-out"
+              class="tracking-relaxed mx-auto w-fit text-center font-optima text-3xl font-bold tracking-tight text-primary"
             >
               Optima
             </a>
-            <p class="w-full text-center text-sm text-gray-500">
+            <p class="w-full text-center text-sm text-gray-700">
               Helping you plan for a better future
             </p>
           </div>
@@ -623,13 +627,13 @@
                 <h3
                   class="text-xs font-semibold uppercase tracking-wider text-prim-300"
                 >
-                  Sections
+                  Explore
                 </h3>
                 <ul role="list" class="mt-4 space-y-4">
                   <li>
                     <a
                       href="./index.html"
-                      class="text-sm font-normal text-gray-500 hover:text-gray-900"
+                      class="text-sm font-normal text-gray-700 hover:text-gray-900"
                     >
                       Home
                     </a>
@@ -638,7 +642,7 @@
                   <li>
                     <a
                       href="./about.html"
-                      class="text-sm font-normal text-gray-500 hover:text-gray-900"
+                      class="text-sm font-normal text-gray-700 hover:text-gray-900"
                     >
                       About Us
                     </a>
@@ -646,7 +650,7 @@
                   <li>
                     <a
                       href="./courses.html"
-                      class="text-sm font-normal text-gray-500 hover:text-gray-900"
+                      class="text-sm font-normal text-gray-700 hover:text-gray-900"
                     >
                       Courses
                     </a>
@@ -655,17 +659,21 @@
               </div>
               <div class="md:mt-0">
                 <h3
-                  class="text-xs font-semibold uppercase tracking-wider text-prim-300"
+                  class="text-center text-xs font-semibold uppercase tracking-wider text-prim-300"
                 >
                   Get in Touch
                 </h3>
                 <ul role="list" class="mt-4 space-y-4">
                   <li class="flex overflow-visible">
                     <a
-                      href="./contact.html"
-                      class="w-full rounded-md border-2 border-sec-50 bg-secondary py-s-two text-center text-f-two font-medium tracking-wider text-gr-50 transition duration-200 ease-in-out hover:bg-sec-200 hover:text-white"
+                      class="group mx-s-five inline-flex items-center justify-center rounded-md border-2 border-gray-300/25 bg-primHotLight px-4 py-2 text-center text-xs tracking-wide text-white shadow-lg transition-shadow hover:bg-prim-hot/75 hover:shadow-2xl focus:outline-1 focus:outline-prim-200 sm:mx-0 sm:text-sm sm:font-medium sm:tracking-normal"
+                      href="#"
                     >
-                      Contact
+                      <div
+                        class="relative drop-shadow-lg after:absolute after:bottom-0 after:left-0 after:h-[2px] after:w-full after:origin-bottom-right after:scale-x-0 after:bg-gray-200 after:transition-transform after:duration-300 after:ease-in-out group-hover:after:origin-bottom-left group-hover:after:scale-x-100"
+                      >
+                        Contact Us
+                      </div>
                     </a>
                   </li>
                 </ul>
@@ -676,10 +684,13 @@
       </div>
 
       <div
-        class="mx-auto max-w-7xl bg-gray-50 px-5 py-12 sm:px-6 md:flex md:items-center md:justify-between lg:px-20"
+        class="mx-auto max-w-7xl bg-transparent px-5 py-12 sm:px-6 md:flex md:items-center md:justify-between lg:px-20"
       >
         <div class="mb-8 flex justify-center space-x-6 md:order-last md:mb-0">
-          <a href="#" class="text-gray-400 hover:text-gray-500">
+          <a
+            href="#"
+            class="text-gray-700 transition duration-300 ease-in-out hover:-translate-y-1"
+          >
             <span class="sr-only">Facebook</span>
             <svg
               class="h-6 w-6"
@@ -695,7 +706,10 @@
             </svg>
           </a>
 
-          <a href="#" class="text-gray-400 hover:text-gray-500">
+          <a
+            href="#"
+            class="text-gray-700 transition duration-300 ease-in-out hover:-translate-y-1"
+          >
             <span class="sr-only">Instagram</span>
             <svg
               class="h-6 w-6"
@@ -711,7 +725,10 @@
             </svg>
           </a>
 
-          <a href="#" class="text-gray-400 hover:text-gray-500">
+          <a
+            href="#"
+            class="text-gray-700 transition duration-300 ease-in-out hover:-translate-y-1"
+          >
             <span class="sr-only">Twitter</span>
             <svg
               class="h-6 w-6"
@@ -725,7 +742,10 @@
             </svg>
           </a>
 
-          <a href="#" class="text-gray-400 hover:text-gray-500">
+          <a
+            href="#"
+            class="text-gray-700 transition duration-300 ease-in-out hover:-translate-y-1"
+          >
             <span class="sr-only">GitHub</span>
             <svg
               class="h-6 w-6"
@@ -741,7 +761,10 @@
             </svg>
           </a>
 
-          <a href="#" class="text-gray-400 hover:text-gray-500">
+          <a
+            href="#"
+            class="text-gray-700 transition duration-300 ease-in-out hover:-translate-y-1"
+          >
             <span class="sr-only">Dribbble</span>
             <svg
               class="h-6 w-6"
@@ -759,7 +782,7 @@
         </div>
 
         <div class="mt-8 text-center md:order-1 md:mt-0">
-          <span class="mt-2 w-full text-sm font-light text-gray-500">
+          <span class="mt-2 w-full text-sm font-light text-gray-700">
             © 2023 Optima All Rights Reserved.
           </span>
         </div>

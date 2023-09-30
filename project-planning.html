@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -16,28 +16,28 @@
   </head>
   <body class="w-screen overflow-x-hidden font-pop">
     <header
-      class="relative flex flex-wrap sm:justify-start sm:flex-nowrap z-50 w-full bg-gradient-to-r from-slate-300 to-gray-100 bg-opacity-50 text-sm py-4"
+      class="relative z-50 flex w-full flex-wrap bg-opacity-50 bg-gradient-to-br from-slate-300 via-stone-200 to-gray-300 py-4 text-sm sm:flex-nowrap sm:justify-start"
     >
       <nav
-        class="max-w-[85rem] w-full mx-auto px-4 sm:flex sm:items-center sm:justify-between"
+        class="mx-auto w-full max-w-7xl px-4 sm:flex sm:items-center sm:justify-between md:px-8"
         aria-label="Global"
       >
         <div class="flex items-center justify-between">
           <a
             href="./index.html"
-            class="op-logo font-optima font-bold text-f-six md:text-f-seven lg:text-f-eight h-full items-center flex my-auto tracking-tight justify-center text-primary"
+            class="op-logo my-auto flex h-full items-center justify-center font-optima text-f-six font-bold tracking-tight text-primary md:text-f-seven lg:text-f-eight"
             >Optima</a
           >
           <div class="sm:hidden">
             <button
               type="button"
-              class="hs-collapse-toggle p-2 inline-flex justify-center items-center gap-2 rounded-md border font-medium bg-white text-gray-700 shadow-sm align-middle hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-white focus:ring-blue-600 transition-all text-sm"
+              class="hs-collapse-toggle inline-flex items-center justify-center gap-2 rounded-md bg-gray-200 p-2 align-middle text-sm font-medium text-gray-700 shadow-sm transition-all hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-sky-700/90 focus:ring-offset-white"
               data-hs-collapse="#navbar-with-mega-menu"
               aria-controls="navbar-with-mega-menu"
               aria-label="Toggle navigation"
             >
               <svg
-                class="hs-collapse-open:hidden w-4 h-4"
+                class="h-4 w-4 hs-collapse-open:hidden"
                 width="16"
                 height="16"
                 fill="currentColor"
@@ -49,7 +49,7 @@
                 />
               </svg>
               <svg
-                class="hs-collapse-open:block hidden w-4 h-4"
+                class="hidden h-4 w-4 hs-collapse-open:block"
                 width="16"
                 height="16"
                 fill="currentColor"
@@ -64,25 +64,25 @@
         </div>
         <div
           id="navbar-with-mega-menu"
-          class="hs-collapse hidden overflow-hidden transition-all duration-300 basis-full grow sm:block"
+          class="hs-collapse hidden grow basis-full overflow-hidden transition-all duration-300 sm:block"
         >
           <div id="email-n-social-nav" class="hidden sm:flex">
             <div
               id="nav-contact-links"
-              class="flex flex-row align-middle font-medium text-gr-700 justify-end pb-s-two w-full"
+              class="flex w-full flex-row justify-end pb-s-two align-middle font-medium text-gray-500"
             >
               <a
                 href="mailto:test@test.com"
-                class="hover:text-ter-100 transition"
+                class="transition hover:text-gray-800"
                 >optimaprojectcontrol@example.com</a
               >
               <div
                 id="nav-social-links"
-                class="flex flex-row pl-s-five gap-x-s-two"
+                class="flex flex-row gap-x-s-two pl-s-five"
               >
                 <a
                   href="#"
-                  class="hover:text-ter-100 transition"
+                  class="transition hover:text-gray-800"
                   alt="facebook"
                 >
                   <svg
@@ -97,7 +97,11 @@
                     />
                   </svg>
                 </a>
-                <a href="#" class="hover:text-ter-100 transition" alt="twitter">
+                <a
+                  href="#"
+                  class="transition hover:text-gray-800"
+                  alt="twitter"
+                >
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="20"
@@ -112,7 +116,7 @@
                 </a>
                 <a
                   href="#"
-                  class="hover:text-ter-100 transition"
+                  class="transition hover:text-gray-800"
                   alt="linkedin"
                 >
                   <svg
@@ -129,7 +133,7 @@
                 </a>
                 <a
                   href="#"
-                  class="hover:text-ter-100 transition"
+                  class="transition hover:text-gray-800"
                   alt="instagram"
                 >
                   <svg
@@ -148,36 +152,36 @@
             </div>
           </div>
           <div
-            class="flex flex-col gap-5 mt-5 sm:flex-row sm:items-center sm:justify-end sm:mt-0 sm:pl-5"
+            class="mt-5 flex flex-col gap-5 sm:mt-0 sm:flex-row sm:items-center sm:justify-end sm:pl-5"
           >
             <a
-              class="font-medium text-gr-700 hover:text-ter-100 transition"
+              class="font-medium text-gray-500 transition hover:text-gray-800"
               href="./index.html"
               aria-current="page"
               >Home</a
             >
             <a
-              class="font-medium text-gr-700 hover:text-ter-100 transition"
+              class="font-medium text-gray-500 transition hover:text-gray-800"
               href="./about.html"
               >About Us</a
             >
             <a
-              class="font-medium text-gr-700 hover:text-ter-100 transition"
+              class="font-medium text-gray-500 transition hover:text-gray-800"
               href="./courses.html"
               >What We Offer</a
             >
 
             <div
-              class="hs-dropdown [--strategy:static] sm:[--strategy:fixed] [--adaptive:none]"
+              class="hs-dropdown [--adaptive:none] [--strategy:static] sm:[--strategy:fixed]"
             >
               <button
                 id="hs-mega-menu-basic-dr"
                 type="button"
-                class="flex items-center w-full text-gr-700 hover:text-ter-100 transition font-medium"
+                class="flex w-full items-center font-medium text-gray-500 transition hover:text-gray-800"
               >
                 View Courses
                 <svg
-                  class="ml-2 w-2.5 h-2.5 text-gr-700"
+                  class="ml-2 h-2.5 w-2.5 text-gray-500"
                   width="16"
                   height="16"
                   viewBox="0 0 16 16"
@@ -194,22 +198,22 @@
               </button>
 
               <div
-                class="hs-dropdown-menu transition-[opacity,margin] duration-[0.1ms] sm:duration-[150ms] hs-dropdown-open:opacity-100 opacity-0 sm:w-48 z-10 bg-transparent sm:bg-gr-200 sm:shadow-md rounded-lg p-2 before:absolute top-full sm:border before:-top-5 before:left-0 before:w-full before:h-5 hidden"
+                class="hs-dropdown-menu top-full z-10 hidden rounded-md bg-inherit p-2 opacity-0 transition-[opacity,margin] duration-[0.1ms] before:absolute before:-top-5 before:left-0 before:h-5 before:w-full hs-dropdown-open:opacity-100 sm:w-48 sm:border sm:bg-slate-200 sm:shadow-md sm:duration-[150ms]"
               >
                 <a
-                  class="flex items-center gap-x-3.5 py-2 px-3 rounded-md text-sm hover:bg-gr-200 focus:ring-2 focus:ring-blue-500 text-gr-700 hover:text-ter-100 transition"
+                  class="flex items-center gap-x-3.5 rounded-md px-3 py-2 text-sm text-gray-500 transition hover:bg-slate-300 hover:text-gray-800 focus:bg-slate-300 focus:text-gray-800"
                   href="./project-management.html"
                 >
                   Project Management
                 </a>
                 <a
-                  class="flex items-center gap-x-3.5 py-2 px-3 rounded-md text-sm hover:bg-gr-200 focus:ring-2 focus:ring-blue-500 text-gr-700 hover:text-ter-100 transition"
+                  class="flex items-center gap-x-3.5 rounded-md px-3 py-2 text-sm text-gray-500 transition hover:bg-slate-300 hover:text-gray-800 focus:bg-slate-300 focus:text-gray-800"
                   href="./project-planning.html"
                 >
                   Project Planning
                 </a>
                 <a
-                  class="flex items-center gap-x-3.5 py-2 px-3 rounded-md text-sm hover:bg-gr-200 focus:ring-2 focus:ring-blue-500 text-gr-700 hover:text-ter-100 transition"
+                  class="flex items-center gap-x-3.5 rounded-md px-3 py-2 text-sm text-gray-500 transition hover:bg-slate-300 hover:text-gray-800 focus:bg-slate-300 focus:text-gray-800"
                   href="./construction-planning.html"
                 >
                   Construction Planning
@@ -217,7 +221,7 @@
               </div>
             </div>
             <a
-              class="font-medium text-gr-700 hover:text-ter-100 transition"
+              class="font-medium text-gray-500 transition hover:text-gray-800"
               href="./contact.html"
               >Contact</a
             >
@@ -226,378 +230,445 @@
       </nav>
     </header>
     <main class="">
+      <!-- Banner -->
       <div
-        id="banner"
-        class="bg-gradient-to-br from-tertiary to-ter-700 min-h-[200px] flex items-center h-auto w-full relative"
+        id="banner-project-management"
+        class="relative flex w-full flex-col items-center justify-center border-b-4 border-b-sky-100/60 bg-gradient-to-br from-cyan-900 via-sky-950 to-sky-900 px-3 py-6 md:py-10 lg:px-8"
       >
         <h3
-          class="w-full text-center text-secondary text-f-eight font-semibold md:text-f-nine lg:text-f-ten"
+          class="mx-auto w-full max-w-7xl text-center text-2xl font-semibold tracking-wide text-quad md:text-4xl lg:text-5xl"
         >
           Project Planning
         </h3>
+        <p
+          class="mt-3 text-center text-xs tracking-wider text-gray-300 sm:text-sm md:mt-6"
+        >
+          The Path to Project Planning Proficiency
+        </p>
       </div>
-      <div id="main-wrap-courses" class="w-full">
-        <div id="main-content-courses" class="max-w-7xl mx-auto relative">
+      <!-- Main Content Project Planning -->
+      <div id="project-planning-main-wrap" class="w-full">
+        <div id="main-content-courses" class="relative mx-auto max-w-7xl">
           <div
             id="main-content-information-courses"
-            class="mx-auto max-w-4xl px-s-seven md:px-s-five lg:px-0"
+            class="relative px-6 pt-6 text-gray-700 lg:grid lg:grid-cols-2 lg:gap-8 lg:px-8 lg:pb-20 lg:pt-10"
           >
-            <h4
-              class="font-semibold pt-s-five lg:pt-s-six leading-tight text-center md:text-left text-primary text-f-four md:text-f-five lg:text-f-six"
-            >
-              Optimising Project Execution
-            </h4>
-            <div
-              class="h-2 rounded-sm mt-s-one w-12 bg-accent mx-auto md:mx-0"
-            ></div>
-            <p
-              class="text-gr-900 text-f-two md:text-f-three mt-s-three text-center md:text-left max-w-[90ch] tracking-wide"
-            >
-              Welcome to Optima's comprehensive Project Planning courses
-              designed to empower you with the skills needed to excel in project
-              management using industry-leading software. Our online courses
-              offer a seamless learning experience, allowing you to master the
-              art of project planning at your own pace, from anywhere in the
-              world. <br />
-              <br />
-              At Optima, we believe that strong project planning skills are the
-              foundation for success in any industry. That's why we offer a
-              range of courses designed to empower you with the tools and
-              techniques needed to navigate complex projects with ease. Whether
-              you're a fresh graduate looking to kickstart your career or an
-              experienced professional seeking to enhance your skill set, our
-              courses provide a roadmap to achieve your goals.<br />
-              <br />
-
-              Please note that Optima strictly provides training on project
-              management methodologies and does not promote or advocate the use
-              of any specific software, including 'Primavera.' Participants are
-              encouraged to use the knowledge gained during the course to
-              evaluate and select the most suitable project planning tools for
-              their specific needs. <br />
-              <br />
-            </p>
-            <h4
-              class="text-primary text-f-three lg:text-f-five max-w-[90ch] text-center md:text-left pt-s-four pb-s-two mx-auto w-full font-semibold"
-            >
-              Mastering the Craft
-            </h4>
-            <p
-              class="text-gr-900 max-w-[90ch] tracking-wide text-f-two md:text-f-three text-center md:text-left"
-            >
-              Our courses are divided into three levels, each building upon the
-              knowledge and skills gained from any level. This structured
-              approach ensures a comprehensive learning experience that allows
-              you to progress seamlessly from beginner to intermediate and
-              advanced levels. Whether you are starting from nothing or seeking
-              to enhance your existing expertise, our course structure caters to
-              learners at every stage of their project planning journey:<br />
-              <br />
-            </p>
-
-            <ul
-              class="text-gr-900 max-w-[90ch] text-f-two md:text-f-three text-center md:text-left tracking-wide space-y-s-five flex flex-col pl-s-two"
-            >
-              <li>
-                <span class="text-f-five font-semibold"
-                  >&bull; Level 1 - Beginner Course:</span
-                >
-                <br />
-                <span
-                  class="italic text-f-three text-gr-700 font-optima inline-flex py-s-two"
-                  >This introductory course covers the fundamental principles of
-                  project planning.
-                </span>
-                <br />
-                Providing you with a solid understanding of the key principles.
-                Learn how to create project schedules, allocate resources, and
-                track progress effectively.
-              </li>
-              <li>
-                <span class="text-f-five font-semibold"
-                  >&bull; Level 2 - Intermediate Course:</span
-                >
-                <br />
-                <span
-                  class="italic text-f-three text-gr-700 font-optima inline-flex py-s-two"
-                  >This intermediary course builds on the fundamental principles
-                  of project planning.
-                </span>
-                <br />
-                Enhance your ability to analyse and optimise project schedules,
-                allocate resources efficiently, and manage complex dependencies.
-                Discover how to streamline your project workflows, mitigate
-                risks, and ensure timely project delivery.
-              </li>
-              <li>
-                <span class="text-f-five font-semibold"
-                  >&bull; Level 3 - Advanced Course:</span
-                >
-                <br />
-                <span
-                  class="italic text-f-three text-gr-700 font-optima leading-normal py-s-two flex"
-                  >For seasoned project planning professionals seeking mastery.
-                </span>
-                Learn to develop strategic project plans, optimise resource
-                utilization, and implement agile project management techniques.
-                Gain the skills to lead and execute complex projects with
-                precision, achieving exceptional results every time.
-              </li>
-            </ul>
-          </div>
-          <!-- Benefits of Course -->
-          <div class="py-6 sm:py-8 lg:py-12">
-            <div class="mx-auto max-w-7xl px-4 md:px-8">
-              <!-- text - start -->
-              <div class="mb-10 md:mb-16">
-                <h2
-                  class="mb-4 text-center text-2xl font-bold text-gray-800 md:mb-6 lg:text-3xl"
-                >
-                  Choose Your Course Today
-                </h2>
-
-                <p
-                  class="mx-auto max-w-screen-md text-center text-gray-500 text-f-three"
-                >
-                  Embark on a transformative learning journey towards project
-                  planning and management excellence.
-                </p>
-              </div>
-              <div
-                class="flex flex-col justify-center md:grid md:grid-cols-2 mb-s-six"
+            <!-- Main Text Left-->
+            <div class="mx-auto max-w-[90ch] lg:translate-x-8">
+              <h4
+                class="text-left text-f-four font-semibold leading-tight text-primary md:text-f-five lg:pt-s-six lg:text-f-six"
               >
-                <div class="flex justify-center items-center relative">
+                Optimising Project Execution
+              </h4>
+              <div class="mx-0 mt-1 h-1 w-12 rounded-sm bg-accent md:h-2"></div>
+              <p class="mt-s-three text-sm tracking-wide md:text-base">
+                Welcome to Optima's comprehensive Project Planning courses
+                designed to empower you with the skills needed to excel in
+                project management using industry-leading software. Our online
+                courses offer a seamless learning experience, allowing you to
+                master the art of project planning at your own pace, from
+                anywhere in the world. <br />
+                <br />
+                At Optima, we believe that strong project planning skills are
+                the foundation for success in any industry. That's why we offer
+                a range of courses designed to empower you with the tools and
+                techniques needed to navigate complex projects with ease.
+                Whether you're a fresh graduate looking to kickstart your career
+                or an experienced professional seeking to enhance your skill
+                set, our courses provide a roadmap to achieve your goals.<br />
+                <br />
+
+                Please note that Optima strictly provides training on project
+                management methodologies and does not promote or advocate the
+                use of any specific software, including 'Primavera.'
+                Participants are encouraged to use the knowledge gained during
+                the course to evaluate and select the most suitable project
+                planning tools for their specific needs.
+              </p>
+              <h4
+                class="pb-2 pt-4 text-base font-semibold text-primary sm:pb-4 sm:pt-6 md:text-lg lg:text-xl"
+              >
+                Mastering the Craft
+              </h4>
+              <p class="text-left text-sm tracking-wide md:text-base">
+                Our courses are divided into three levels, each building upon
+                the knowledge and skills gained from any level. This structured
+                approach ensures a comprehensive learning experience that allows
+                you to progress seamlessly from beginner to intermediate and
+                advanced levels. Whether you are starting from nothing or
+                seeking to enhance your existing expertise, our course structure
+                caters to learners at every stage of their project planning
+                journey:<br />
+                <br />
+              </p>
+              <!-- Bullet points -->
+              <ul
+                class="mb-6 flex flex-col space-y-s-five border-l-4 pl-8 pr-10 text-justify text-sm tracking-wide md:mb-10 md:pr-20 lg:space-y-9 lg:text-base"
+              >
+                <li class="text-xs sm:text-sm">
+                  <span
+                    class="text-base font-semibold text-gray-900/75 sm:text-lg lg:text-xl"
+                    >Level 1 - Beginner Course:</span
+                  >
+                  <div class="h-[2px] w-[8ch] rounded-2xl bg-quad/40"></div>
+                  <span
+                    class="inline-flex py-2 font-optima text-xs font-light italic text-gray-500/70 md:text-sm"
+                    >This introductory course covers the fundamental principles
+                    of project planning.
+                  </span>
+                  <br />
+                  Providing you with a solid understanding of the key
+                  principles. Learn how to create project schedules, allocate
+                  resources, and track progress effectively.
+                </li>
+                <li class="text-xs sm:text-sm">
+                  <span
+                    class="text-base font-semibold text-gray-900/75 sm:text-lg lg:text-xl"
+                    >Level 2 - Intermediate Course:</span
+                  >
+                  <div class="h-[2px] w-[8ch] rounded-2xl bg-quad/40"></div>
+                  <span
+                    class="inline-flex py-2 font-optima text-xs font-light italic text-gray-500/70 md:text-sm"
+                    >This intermediary course builds on the fundamental
+                    principles of project planning.
+                  </span>
+                  <br />
+                  Enhance your ability to analyse and optimise project
+                  schedules, allocate resources efficiently, and manage complex
+                  dependencies. Discover how to streamline your project
+                  workflows, mitigate risks, and ensure timely project delivery.
+                </li>
+                <li class="text-xs sm:text-sm">
+                  <span
+                    class="text-base font-semibold text-gray-900/75 sm:text-lg lg:text-xl"
+                    >Level 3 - Advanced Course:</span
+                  >
+                  <div class="h-[2px] w-[8ch] rounded-2xl bg-quad/40"></div>
+                  <span
+                    class="inline-flex py-2 font-optima text-xs font-light italic text-gray-500/70 md:text-sm"
+                    >For seasoned project planning professionals seeking
+                    mastery.
+                  </span>
+                  <br />
+                  Learn to develop strategic project plans, optimise resource
+                  utilization, and implement agile project management
+                  techniques. Gain the skills to lead and execute complex
+                  projects with precision, achieving exceptional results every
+                  time.
+                </li>
+              </ul>
+            </div>
+            <!-- Right-side Modal -->
+            <aside
+              id="cta-modal"
+              class="sticky top-24 mx-20 mt-6 hidden aspect-video flex-col rounded-md border-2 border-gray-300/40 py-10 shadow-xl lg:flex lg:-translate-x-8 lg:items-center xl:top-1/3"
+            >
+              <p
+                class="text-center text-2xl font-semibold tracking-tight text-primHotLight"
+              >
+                Begin Your Journey
+              </p>
+              <div
+                class="mx-0 mt-2 h-[2px] w-12 rounded-xl bg-primary/95"
+              ></div>
+              <p
+                class="my-7 max-w-xl px-8 text-center text-sm tracking-tight text-gray-800"
+              >
+                Whether you're new or a seasoned pro! <br />
+                Optima offers tailored courses for everyone. Join us and embark
+                on your path to mastery.
+              </p>
+              <div
+                class="flex w-full flex-col gap-2.5 sm:flex-row sm:justify-center"
+              >
+                <a
+                  class="group mx-s-five inline-flex items-center justify-center gap-x-3 rounded-md border-2 border-gray-300/25 bg-primHotLight px-5 py-3 text-center text-xs tracking-wide text-white shadow-lg transition hover:bg-prim-hot/90 focus:bg-prim-hot/90 focus:text-white focus:ring-2 focus:ring-prim-200/50 sm:mx-0"
+                  href="./contact.html"
+                >
+                  <div
+                    class="relative drop-shadow-lg after:absolute after:bottom-0 after:left-0 after:h-[2px] after:w-full after:origin-bottom-right after:scale-x-0 after:bg-gray-200 after:transition-transform after:duration-300 after:ease-in-out group-hover:after:origin-bottom-left group-hover:after:scale-x-100"
+                  >
+                    Contact Us
+                  </div>
+                </a>
+                <a
+                  class="group mx-s-five inline-flex items-center justify-center gap-2 rounded-md border-2 border-sky-700/60 px-5 py-3 text-xs font-semibold tracking-wide text-sky-900 transition-all hover:bg-sky-800/90 hover:text-white focus:bg-sky-800/90 focus:text-white focus:ring-2 focus:ring-sky-400/50 sm:mx-0 sm:bg-transparent"
+                  href="./courses.html"
+                >
+                  <div
+                    class="relative after:absolute after:bottom-0 after:left-0 after:h-[2px] after:w-full after:origin-bottom-right after:scale-x-0 after:bg-gray-200 after:transition-transform after:duration-300 after:ease-in-out group-hover:after:origin-bottom-left group-hover:after:scale-x-100"
+                  >
+                    View All Courses
+                  </div>
+                </a>
+              </div>
+            </aside>
+          </div>
+        </div>
+        <!-- Main CTA -->
+        <section class="mt-8 w-full bg-transparent px-4 shadow-lg md:px-8">
+          <div class="mx-auto max-w-7xl px-4 py-6 md:px-8">
+            <div class="mb-6 md:mb-8">
+              <h2
+                class="mb-6 text-center text-lg font-bold text-gray-700/75 lg:text-2xl"
+              >
+                Choose Your Course Today
+              </h2>
+              <p
+                class="mx-auto max-w-screen-md text-center text-sm text-gray-500 lg:text-base"
+              >
+                Embark on a transformative learning journey towards project
+                planning and management excellence.
+              </p>
+            </div>
+            <!-- CTA Image -->
+            <div class="mb-20 mt-10">
+              <div class="flex flex-col justify-center md:grid md:grid-cols-2">
+                <div class="relative flex items-center justify-center">
                   <img
                     src="images/undraw_solution_mindset_re_57bf.svg"
-                    class="md:w-2/3 md:h-2/3 w-1/2 h-1/2"
+                    class="aspect-video"
                     alt=""
                   />
                 </div>
                 <div>
+                  <!-- Right side CTA -->
                   <div
-                    class="max-w-2xl text-center mx-auto h-full mt-s-six sm:mt-0 flex flex-col justify-center"
+                    class="relative mx-auto mt-s-six flex h-full max-w-2xl flex-col justify-center rounded-md border-4 border-[#7c9aae]/10 bg-gradient-to-tr from-sky-950 to-sky-900/95 px-2 py-6 text-center shadow-2xl md:mt-0 md:p-12"
                   >
                     <!-- Title -->
-                    <div class="mt-5 max-w-2xl">
+                    <div class="mb-4 mt-0 max-w-2xl lg:mb-6">
                       <h1
-                        class="block font-semibold text-gr- drop-shadow-lg text-xl md:text-3xl lg:text-4xl"
+                        class="block text-lg font-semibold text-gray-100 drop-shadow-md md:text-2xl lg:text-3xl"
                       >
                         Take Control of Projects
                       </h1>
                     </div>
-                    <!-- End Title -->
-
-                    <div class="mt-5 max-w-3xl">
-                      <p class="text-base text-gr-800 drop-shadow-lg">
+                    <div class="">
+                      <p
+                        class="mx-auto max-w-sm text-xs text-gray-200/90 drop-shadow-lg md:text-sm"
+                      >
                         Transform Your Project Scheduling Skills and Excel in
                         Dynamic Project Environments
                       </p>
                     </div>
-
-                    <!-- Buttons -->
                     <div
-                      class="mt-8 grid gap-5 w-full sm:inline-flex sm:justify-center"
+                      class="mx-auto mb-12 mt-8 h-[2px] w-16 rounded-2xl bg-accent/75"
+                    ></div>
+                    <!--CTA Buttons -->
+                    <div
+                      class="flex w-full flex-col items-center justify-center gap-4 lg:inline-flex lg:flex-row"
                     >
                       <a
-                        class="inline-flex justify-center items-center gap-x-3 text-center mx-s-five sm:mx-0 bg-sec-300 hover:bg-sec-400 hover:ring-ter-100 hover:ring-2 text-white text-f-three rounded-md focus:outline-none group transition py-3 px-9 tracking-wider border-2 font-medium border-sec-100 shadow-sm"
+                        class="group relative inline-flex w-full max-w-[250px] items-center justify-center gap-x-3 rounded-md border-2 border-prim-100/30 bg-primHotLight px-8 py-3 text-center text-xs tracking-wide text-white shadow-lg transition hover:bg-sec-300/90 focus:bg-sec-300/90 focus:text-white focus:ring-2 focus:ring-prim-200/50 sm:mx-0 sm:text-sm sm:font-medium sm:tracking-normal"
                         href="#"
                       >
                         <div
-                          class="relative after:absolute after:bg-gray-200 after:bottom-0 after:left-0 after:h-[2px] after:w-full after:origin-bottom-right after:scale-x-0 group-hover:after:origin-bottom-left group-hover:after:scale-x-100 after:transition-transform after:ease-in-out after:duration-300"
+                          class="relative drop-shadow-lg after:absolute after:bottom-0 after:left-0 after:h-[2px] after:w-full after:origin-bottom-right after:scale-x-0 after:bg-gray-200 after:transition-transform after:duration-300 after:ease-in-out group-hover:after:origin-bottom-left group-hover:after:scale-x-100"
                         >
                           Beginner
                         </div>
                       </a>
                       <a
-                        class="inline-flex justify-center items-center gap-x-3 text-center mx-s-five sm:mx-0 bg-sec-300 hover:bg-sec-400 hover:ring-ter-100 hover:ring-2 text-white text-f-three rounded-md focus:outline-none group transition py-3 px-9 tracking-wider border-2 font-medium border-sec-100 shadow-sm"
+                        class="group relative inline-flex w-full max-w-[250px] items-center justify-center gap-x-3 rounded-md border-2 border-prim-100/30 bg-primHotLight px-8 py-3 text-center text-xs tracking-wide text-white shadow-lg transition hover:bg-sec-300/90 focus:bg-sec-300/90 focus:text-white focus:ring-2 focus:ring-prim-200/50 sm:mx-0 sm:text-sm sm:font-medium sm:tracking-normal"
                         href="#"
                       >
                         <div
-                          class="relative after:absolute after:bg-gray-200 after:bottom-0 after:left-0 after:h-[2px] after:w-full after:origin-bottom-right after:scale-x-0 group-hover:after:origin-bottom-left group-hover:after:scale-x-100 after:transition-transform after:ease-in-out after:duration-300"
+                          class="relative drop-shadow-lg after:absolute after:bottom-0 after:left-0 after:h-[2px] after:w-full after:origin-bottom-right after:scale-x-0 after:bg-gray-200 after:transition-transform after:duration-300 after:ease-in-out group-hover:after:origin-bottom-left group-hover:after:scale-x-100"
                         >
                           Intermediate
                         </div>
                       </a>
                       <a
-                        class="inline-flex justify-center items-center gap-x-3 text-center mx-s-five sm:mx-0 bg-sec-300 hover:bg-sec-400 hover:ring-ter-100 hover:ring-2 text-white text-f-three rounded-md focus:outline-none group transition py-3 px-9 tracking-wider border-2 font-medium border-sec-100 shadow-sm"
+                        class="group relative inline-flex w-full max-w-[250px] items-center justify-center gap-x-3 rounded-md border-2 border-prim-100/30 bg-primHotLight px-8 py-3 text-center text-xs tracking-wide text-white shadow-lg transition hover:bg-sec-300/90 focus:bg-sec-300/90 focus:text-white focus:ring-2 focus:ring-prim-200/50 sm:mx-0 sm:text-sm sm:font-medium sm:tracking-normal"
                         href="#"
                       >
                         <div
-                          class="relative after:absolute after:bg-gray-200 after:bottom-0 after:left-0 after:h-[2px] after:w-full after:origin-bottom-right after:scale-x-0 group-hover:after:origin-bottom-left group-hover:after:scale-x-100 after:transition-transform after:ease-in-out after:duration-300"
+                          class="relative drop-shadow-lg after:absolute after:bottom-0 after:left-0 after:h-[2px] after:w-full after:origin-bottom-right after:scale-x-0 after:bg-gray-200 after:transition-transform after:duration-300 after:ease-in-out group-hover:after:origin-bottom-left group-hover:after:scale-x-100"
                         >
                           Advanced
                         </div>
                       </a>
                     </div>
-                    <!-- End Buttons -->
                   </div>
                 </div>
               </div>
-              <!-- text - end -->
-
-              <div
-                class="grid gap-12 sm:grid-cols-2 lg:grid-cols-3 xl:gap-16 mt-s-eight backdrop-blur-sm p-s-three bg-gr-200 bg-opacity-40 rounded-xl shadow-lg"
-              >
-                <!-- feature - end -->
-
-                <!-- feature - start -->
-                <div class="flex flex-col items-center">
-                  <div
-                    class="mb-6 flex h-12 w-12 items-center justify-center rounded-lg bg-prim-400 bg-opacity-90 text-white shadow-lg md:h-14 md:w-14 md:rounded-xl"
-                  >
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      width="24"
-                      height="24"
-                      viewBox="0 0 256 256"
-                    >
-                      <path
-                        fill="white"
-                        d="M240.26 186.1L152.81 34.23a28.74 28.74 0 0 0-49.62 0L15.74 186.1a27.45 27.45 0 0 0 0 27.71A28.31 28.31 0 0 0 40.55 228h174.9a28.31 28.31 0 0 0 24.79-14.19a27.45 27.45 0 0 0 .02-27.71Zm-20.8 15.7a4.46 4.46 0 0 1-4 2.2H40.55a4.46 4.46 0 0 1-4-2.2a3.56 3.56 0 0 1 0-3.73L124 46.2a4.77 4.77 0 0 1 8 0l87.44 151.87a3.56 3.56 0 0 1 .02 3.73ZM116 136v-32a12 12 0 0 1 24 0v32a12 12 0 0 1-24 0Zm28 40a16 16 0 1 1-16-16a16 16 0 0 1 16 16Z"
-                      />
-                    </svg>
-                  </div>
-
-                  <h3 class="mb-2 text-center text-lg font-semibold md:text-xl">
-                    Risk Management
-                  </h3>
-                  <p class="mb-2 text-center text-gray-500">
-                    Develop strategies to minimise potential issues and ensure
-                    project success.
-                  </p>
-                </div>
-                <!-- feature - end -->
-
-                <!-- feature - start -->
-                <div class="flex flex-col items-center">
-                  <div
-                    class="mb-6 flex h-12 w-12 items-center justify-center rounded-lg bg-prim-400 bg-opacity-90 text-white shadow-lg md:h-14 md:w-14 md:rounded-xl"
-                  >
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      width="24"
-                      height="24"
-                      viewBox="0 0 24 24"
-                    >
-                      <path
-                        fill="white"
-                        d="M18 22a2 2 0 0 0 2-2V8l-6-6H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12zM13 4l5 5h-5V4zM7 8h3v2H7V8zm0 4h10v2H7v-2zm0 4h10v2H7v-2z"
-                      />
-                    </svg>
-                  </div>
-
-                  <h3 class="mb-2 text-center text-lg font-semibold md:text-xl">
-                    Documentation & Reporting
-                  </h3>
-                  <p class="mb-2 text-center text-gray-500">
-                    Gain knowledge of documenting project plans, progress, and
-                    milestones.
-                  </p>
-                </div>
-                <!-- feature - end -->
-
-                <!-- feature - start -->
+            </div>
+            <!-- text - end -->
+            <!-- Features Panel -->
+            <div
+              class="grid gap-12 rounded-md bg-opacity-40 p-6 backdrop-blur-sm sm:mt-0 sm:grid-cols-2 md:bg-gr-200/75 md:shadow-lg lg:grid-cols-3 xl:gap-16"
+            >
+              <div class="flex flex-col items-center">
                 <div
-                  class="flex flex-col items-center justify-center z-30 sm:mx-auto sm:col-span-2 sm:w-1/2 lg:mx-0 lg:col-span-1 lg:w-full"
+                  class="mb-6 flex h-12 w-12 items-center justify-center rounded-lg bg-primary bg-opacity-90 text-white shadow-lg md:h-14 md:w-14 md:rounded-xl"
                 >
-                  <div
-                    class="mb-6 flex h-12 w-12 items-center justify-center rounded-lg bg-prim-400 bg-opacity-90 text-white shadow-lg md:h-14 md:w-14 md:rounded-xl"
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 256 256"
                   >
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      width="24"
-                      height="24"
-                      viewBox="0 0 24 24"
-                    >
-                      <path
-                        fill="white"
-                        d="m17.578 4.432l-2-1.05C13.822 2.461 12.944 2 12 2s-1.822.46-3.578 1.382l-.321.169l8.923 5.099l4.016-2.01c-.646-.732-1.688-1.279-3.462-2.21Zm4.17 3.532l-3.998 2V13a.75.75 0 0 1-1.5 0v-2.287l-3.5 1.75v9.441c.718-.179 1.535-.607 2.828-1.286l2-1.05c2.151-1.129 3.227-1.693 3.825-2.708c.597-1.014.597-2.277.597-4.8v-.117c0-1.893 0-3.076-.252-3.978ZM11.25 21.904v-9.44l-8.998-4.5C2 8.866 2 10.05 2 11.941v.117c0 2.525 0 3.788.597 4.802c.598 1.015 1.674 1.58 3.825 2.709l2 1.049c1.293.679 2.11 1.107 2.828 1.286ZM2.96 6.641l9.04 4.52l3.411-1.705l-8.886-5.078l-.103.054c-1.773.93-2.816 1.477-3.462 2.21Z"
-                      />
-                    </svg>
-                  </div>
-
-                  <h3 class="mb-2 text-center text-lg font-semibold md:text-xl">
-                    Resource Allocation
-                  </h3>
-                  <p class="mb-2 text-center text-gray-500">
-                    Allocate resources optimally, balancing time, budget, and
-                    workforce requirements.
-                  </p>
+                    <path
+                      fill="white"
+                      d="M240.26 186.1L152.81 34.23a28.74 28.74 0 0 0-49.62 0L15.74 186.1a27.45 27.45 0 0 0 0 27.71A28.31 28.31 0 0 0 40.55 228h174.9a28.31 28.31 0 0 0 24.79-14.19a27.45 27.45 0 0 0 .02-27.71Zm-20.8 15.7a4.46 4.46 0 0 1-4 2.2H40.55a4.46 4.46 0 0 1-4-2.2a3.56 3.56 0 0 1 0-3.73L124 46.2a4.77 4.77 0 0 1 8 0l87.44 151.87a3.56 3.56 0 0 1 .02 3.73ZM116 136v-32a12 12 0 0 1 24 0v32a12 12 0 0 1-24 0Zm28 40a16 16 0 1 1-16-16a16 16 0 0 1 16 16Z"
+                    />
+                  </svg>
                 </div>
-                <!-- feature - end -->
+
+                <h3
+                  class="mb-2 text-center text-lg font-semibold text-gray-700 md:text-xl"
+                >
+                  Risk Management
+                </h3>
+                <p class="mb-2 text-center text-xs text-gray-500/90 md:text-sm">
+                  Develop strategies to minimise potential issues and ensure
+                  project success.
+                </p>
+              </div>
+
+              <div class="flex flex-col items-center">
+                <div
+                  class="mb-6 flex h-12 w-12 items-center justify-center rounded-lg bg-primary bg-opacity-90 text-white shadow-lg md:h-14 md:w-14 md:rounded-xl"
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      fill="white"
+                      d="M18 22a2 2 0 0 0 2-2V8l-6-6H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12zM13 4l5 5h-5V4zM7 8h3v2H7V8zm0 4h10v2H7v-2zm0 4h10v2H7v-2z"
+                    />
+                  </svg>
+                </div>
+
+                <h3
+                  class="mb-2 text-center text-lg font-semibold text-gray-700 md:text-xl"
+                >
+                  Documentation & Reporting
+                </h3>
+                <p class="mb-2 text-center text-xs text-gray-500/90 md:text-sm">
+                  Gain knowledge of documenting project plans, progress, and
+                  milestones.
+                </p>
+              </div>
+              <div
+                class="z-30 flex flex-col items-center justify-center sm:col-span-2 sm:mx-auto sm:w-1/2 lg:col-span-1 lg:mx-0 lg:w-full"
+              >
+                <div
+                  class="mb-6 flex h-12 w-12 items-center justify-center rounded-lg bg-primary bg-opacity-90 text-white shadow-lg md:h-14 md:w-14 md:rounded-xl"
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      fill="white"
+                      d="m17.578 4.432l-2-1.05C13.822 2.461 12.944 2 12 2s-1.822.46-3.578 1.382l-.321.169l8.923 5.099l4.016-2.01c-.646-.732-1.688-1.279-3.462-2.21Zm4.17 3.532l-3.998 2V13a.75.75 0 0 1-1.5 0v-2.287l-3.5 1.75v9.441c.718-.179 1.535-.607 2.828-1.286l2-1.05c2.151-1.129 3.227-1.693 3.825-2.708c.597-1.014.597-2.277.597-4.8v-.117c0-1.893 0-3.076-.252-3.978ZM11.25 21.904v-9.44l-8.998-4.5C2 8.866 2 10.05 2 11.941v.117c0 2.525 0 3.788.597 4.802c.598 1.015 1.674 1.58 3.825 2.709l2 1.049c1.293.679 2.11 1.107 2.828 1.286ZM2.96 6.641l9.04 4.52l3.411-1.705l-8.886-5.078l-.103.054c-1.773.93-2.816 1.477-3.462 2.21Z"
+                    />
+                  </svg>
+                </div>
+                <h3
+                  class="mb-2 text-center text-lg font-semibold text-gray-700 md:text-xl"
+                >
+                  Resource Allocation
+                </h3>
+                <p class="mb-2 text-center text-xs text-gray-500/90 md:text-sm">
+                  Allocate resources optimally, balancing time, budget, and
+                  workforce requirements.
+                </p>
               </div>
             </div>
           </div>
-        </div>
+        </section>
       </div>
     </main>
-    <div
-      class="bg-gradient-to-r from-slate-300 to-gray-100 py-6 sm:py-5 lg:py-6"
+    <!-- Generic CTA -->
+    <section
+      id="CTA-courses"
+      class="border-y-8 border-y-rose-950/5 bg-white lg:hidden"
     >
-      <div class="mx-auto max-w-screen-2xl px-4 md:px-8">
+      <div class="mx-auto max-w-screen-2xl px-4 py-8 md:px-8">
         <div class="mx-auto flex max-w-xl flex-col items-center text-center">
           <p
-            class="mb-4 font-semibold text-gr-700 md:mb-6 md:text-lg xl:text-xl"
+            class="mb-2 text-base font-semibold text-gray-600 md:mb-4 md:text-lg"
           >
-            Connect with us
+            Get In Touch
           </p>
 
           <h1
-            class="text-black-800 mb-8 text-3xl font-bold sm:text-xl md:mb-12 md:text-3xl"
+            class="mb-6 text-lg font-bold text-gray-800 sm:text-xl md:mb-10 md:text-3xl"
           >
-            Get started on your path to mastery now!
+            Start on your path to mastery now!
           </h1>
 
           <div
             class="flex w-full flex-col gap-2.5 sm:flex-row sm:justify-center"
           >
             <a
+              class="group mx-s-five inline-flex items-center justify-center gap-x-3 rounded-md border-2 border-gray-300/25 bg-primHotLight px-6 py-3 text-center text-xs tracking-wide text-white shadow-lg transition hover:bg-prim-hot/90 focus:bg-prim-hot/90 focus:text-white focus:ring-2 focus:ring-prim-200/50 sm:mx-0 sm:text-sm sm:font-medium sm:tracking-normal"
               href="#"
-              class="inline-block rounded-lg bg-prim-200 px-8 py-3 mx-s-five sm:mx-0 text-center text-sm font-semibold text-white outline-none transition duration-100 hover:bg-prim-400 md:text-base"
-              >Start now</a
             >
+              <div
+                class="relative drop-shadow-lg after:absolute after:bottom-0 after:left-0 after:h-[2px] after:w-full after:origin-bottom-right after:scale-x-0 after:bg-gray-200 after:transition-transform after:duration-300 after:ease-in-out group-hover:after:origin-bottom-left group-hover:after:scale-x-100"
+              >
+                Contact Us
+              </div>
+            </a>
 
             <a
+              class="group mx-s-five inline-flex items-center justify-center gap-2 rounded-md border-2 border-sky-700/60 px-6 py-3 text-xs font-semibold tracking-wide text-sky-900 transition-all hover:bg-sky-800/90 hover:text-white focus:bg-sky-800/90 focus:text-white focus:ring-2 focus:ring-sky-400/50 sm:mx-0 sm:bg-transparent sm:text-sm sm:tracking-normal"
               href="#"
-              class="inline-block rounded-lg bg-gray-200 px-8 py-3 text-center mx-s-five sm:mx-0 text-sm font-semibold text-gray-500 outline-none ring-indigo-300 transition duration-100 hover:bg-gray-300 focus-visible:ring active:text-gray-700 md:text-base"
-              >FAQs</a
             >
+              <div
+                class="relative after:absolute after:bottom-0 after:left-0 after:h-[2px] after:w-full after:origin-bottom-right after:scale-x-0 after:bg-gray-200 after:transition-transform after:duration-300 after:ease-in-out group-hover:after:origin-bottom-left group-hover:after:scale-x-100"
+              >
+                View All Courses
+              </div>
+            </a>
           </div>
         </div>
       </div>
-    </div>
-    <footer class="bg-white" aria-labelledby="footer-heading">
+    </section>
+    <footer
+      class="bg-gradient-to-br from-slate-300 via-stone-300 to-gray-300"
+      aria-labelledby="footer-heading"
+    >
       <h2 id="footer-heading" class="sr-only">Footer</h2>
-      <div class="px-5 py-12 mx-auto max-w-7xl lg:py-16 md:px-12 lg:px-20">
+      <div class="mx-auto max-w-7xl px-5 py-12 md:px-12 lg:px-20 lg:py-16">
         <div
-          class="xl:flex xl:flex-row xl:justify-between flex justify-center flex-col content-center"
+          class="flex flex-col content-center justify-center xl:flex xl:flex-row xl:justify-between"
         >
-          <div class="space-y-8 flex justify-center flex-col">
+          <div class="flex flex-col justify-center space-y-8">
             <a
               href="./index.html"
-              class="text-3xl font-bold text-center tracking-tight text-primary transition duration-500 ease-in-out tracking-relaxed"
+              class="tracking-relaxed mx-auto w-fit text-center font-optima text-3xl font-bold tracking-tight text-primary"
             >
               Optima
             </a>
-            <p class="w-full text-center text-sm text-gray-500">
+            <p class="w-full text-center text-sm text-gray-700">
               Helping you plan for a better future
             </p>
           </div>
-          <div class="grid mt-12 xl:mt-0">
+          <div class="mt-12 grid xl:mt-0">
             <div
-              class="xl:grid xl:grid-cols-2 flex flex-row justify-around md:gap-16"
+              class="flex flex-row justify-around md:gap-16 xl:grid xl:grid-cols-2"
             >
               <div>
                 <h3
-                  class="text-xs font-semibold tracking-wider text-prim-300 uppercase"
+                  class="text-xs font-semibold uppercase tracking-wider text-prim-300"
                 >
-                  Sections
+                  Explore
                 </h3>
                 <ul role="list" class="mt-4 space-y-4">
                   <li>
                     <a
                       href="./index.html"
-                      class="text-sm font-normal text-gray-500 hover:text-gray-900"
+                      class="text-sm font-normal text-gray-700 hover:text-gray-900"
                     >
                       Home
                     </a>
@@ -606,7 +677,7 @@
                   <li>
                     <a
                       href="./about.html"
-                      class="text-sm font-normal text-gray-500 hover:text-gray-900"
+                      class="text-sm font-normal text-gray-700 hover:text-gray-900"
                     >
                       About Us
                     </a>
@@ -614,7 +685,7 @@
                   <li>
                     <a
                       href="./courses.html"
-                      class="text-sm font-normal text-gray-500 hover:text-gray-900"
+                      class="text-sm font-normal text-gray-700 hover:text-gray-900"
                     >
                       Courses
                     </a>
@@ -623,17 +694,21 @@
               </div>
               <div class="md:mt-0">
                 <h3
-                  class="text-xs font-semibold tracking-wider text-prim-300 uppercase"
+                  class="text-center text-xs font-semibold uppercase tracking-wider text-prim-300"
                 >
                   Get in Touch
                 </h3>
                 <ul role="list" class="mt-4 space-y-4">
                   <li class="flex overflow-visible">
                     <a
-                      href="./contact.html"
-                      class="text-f-two font-medium w-full text-center py-s-two text-gr-50 bg-secondary rounded-md tracking-wider border-sec-50 border-2 hover:bg-sec-200 hover:text-white transition duration-200 ease-in-out"
+                      class="group mx-s-five inline-flex items-center justify-center rounded-md border-2 border-gray-300/25 bg-primHotLight px-4 py-2 text-center text-xs tracking-wide text-white shadow-lg transition-shadow hover:bg-prim-hot/75 hover:shadow-2xl focus:outline-1 focus:outline-prim-200 sm:mx-0 sm:text-sm sm:font-medium sm:tracking-normal"
+                      href="#"
                     >
-                      Contact
+                      <div
+                        class="relative drop-shadow-lg after:absolute after:bottom-0 after:left-0 after:h-[2px] after:w-full after:origin-bottom-right after:scale-x-0 after:bg-gray-200 after:transition-transform after:duration-300 after:ease-in-out group-hover:after:origin-bottom-left group-hover:after:scale-x-100"
+                      >
+                        Contact Us
+                      </div>
                     </a>
                   </li>
                 </ul>
@@ -644,13 +719,16 @@
       </div>
 
       <div
-        class="px-5 py-12 mx-auto bg-gray-50 max-w-7xl sm:px-6 md:flex md:items-center md:justify-between lg:px-20"
+        class="mx-auto max-w-7xl bg-transparent px-5 py-12 sm:px-6 md:flex md:items-center md:justify-between lg:px-20"
       >
-        <div class="flex justify-center mb-8 space-x-6 md:order-last md:mb-0">
-          <a href="#" class="text-gray-400 hover:text-gray-500">
+        <div class="mb-8 flex justify-center space-x-6 md:order-last md:mb-0">
+          <a
+            href="#"
+            class="text-gray-700 transition duration-300 ease-in-out hover:-translate-y-1"
+          >
             <span class="sr-only">Facebook</span>
             <svg
-              class="w-6 h-6"
+              class="h-6 w-6"
               fill="currentColor"
               viewBox="0 0 24 24"
               aria-hidden="true"
@@ -663,10 +741,13 @@
             </svg>
           </a>
 
-          <a href="#" class="text-gray-400 hover:text-gray-500">
+          <a
+            href="#"
+            class="text-gray-700 transition duration-300 ease-in-out hover:-translate-y-1"
+          >
             <span class="sr-only">Instagram</span>
             <svg
-              class="w-6 h-6"
+              class="h-6 w-6"
               fill="currentColor"
               viewBox="0 0 24 24"
               aria-hidden="true"
@@ -679,10 +760,13 @@
             </svg>
           </a>
 
-          <a href="#" class="text-gray-400 hover:text-gray-500">
+          <a
+            href="#"
+            class="text-gray-700 transition duration-300 ease-in-out hover:-translate-y-1"
+          >
             <span class="sr-only">Twitter</span>
             <svg
-              class="w-6 h-6"
+              class="h-6 w-6"
               fill="currentColor"
               viewBox="0 0 24 24"
               aria-hidden="true"
@@ -693,10 +777,13 @@
             </svg>
           </a>
 
-          <a href="#" class="text-gray-400 hover:text-gray-500">
+          <a
+            href="#"
+            class="text-gray-700 transition duration-300 ease-in-out hover:-translate-y-1"
+          >
             <span class="sr-only">GitHub</span>
             <svg
-              class="w-6 h-6"
+              class="h-6 w-6"
               fill="currentColor"
               viewBox="0 0 24 24"
               aria-hidden="true"
@@ -709,10 +796,13 @@
             </svg>
           </a>
 
-          <a href="#" class="text-gray-400 hover:text-gray-500">
+          <a
+            href="#"
+            class="text-gray-700 transition duration-300 ease-in-out hover:-translate-y-1"
+          >
             <span class="sr-only">Dribbble</span>
             <svg
-              class="w-6 h-6"
+              class="h-6 w-6"
               fill="currentColor"
               viewBox="0 0 24 24"
               aria-hidden="true"
@@ -726,8 +816,8 @@
           </a>
         </div>
 
-        <div class="mt-8 md:mt-0 md:order-1 text-center">
-          <span class="mt-2 text-sm font-light w-full text-gray-500">
+        <div class="mt-8 text-center md:order-1 md:mt-0">
+          <span class="mt-2 w-full text-sm font-light text-gray-700">
             © 2023 Optima All Rights Reserved.
           </span>
         </div>

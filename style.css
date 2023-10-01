@@ -111,7 +111,8 @@
   z-index: 2;
 }
 
-#cta-modal {
+#cta-modal,
+#contact-wrap {
   background-image: url("../images/backgrounds/ctaBg.svg");
   background-size: cover;
   border-radius: 12px;

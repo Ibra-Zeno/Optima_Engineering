@@ -1130,6 +1130,10 @@ video {
   justify-content: space-around;
 }
 
+.justify-evenly {
+  justify-content: space-evenly;
+}
+
 .gap-10 {
   gap: 2.5rem;
 }
@@ -1868,6 +1872,11 @@ video {
 .py-s-four {
   padding-top: 16px;
   padding-bottom: 16px;
+}
+
+.py-44 {
+  padding-top: 11rem;
+  padding-bottom: 11rem;
 }
 
 .pb-2 {
@@ -3083,6 +3092,11 @@ body {
 .hover\:text-white:hover {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.hover\:text-gray-200:hover {
+  --tw-text-opacity: 1;
+  color: rgb(229 231 235 / var(--tw-text-opacity));
 }
 
 .hover\:shadow-2xl:hover {

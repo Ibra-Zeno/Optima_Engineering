@@ -111,11 +111,16 @@
   z-index: 2;
 }
 
-#cta-modal,
-#contact-wrap {
+#cta-modal {
   background-image: url("../images/backgrounds/ctaBg.svg");
   background-size: cover;
   border-radius: 12px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+#contact-wrap {
+  background-image: url("../images/backgrounds/ctaBg.svg");
+  background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
